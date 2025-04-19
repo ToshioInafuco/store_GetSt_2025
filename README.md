@@ -23,3 +23,5 @@ Things you may want to cover:
 - Deployment instructions
 
 - ...
+
+- VsCode Extensions recommendatios: https://www.youtube.com/watch?v=jVIbg96h8P8&ab_channel=SupeRails
