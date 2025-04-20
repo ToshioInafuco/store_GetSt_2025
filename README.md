@@ -25,3 +25,5 @@ Things you may want to cover:
 - ...
 
 - VsCode Extensions recommendatios: https://www.youtube.com/watch?v=jVIbg96h8P8&ab_channel=SupeRails
+
+- run server with `./bin/dev` to run with tailwind

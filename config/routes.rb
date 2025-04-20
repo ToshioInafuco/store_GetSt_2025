@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   root "products#index"
 
   resources :products # CRUD completo
+  resources :user
 end

@@ -23,14 +23,9 @@
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
+    <%= render "shared/navbar" %>
 
-    <div>
-      <%= link_to "Home", root_path %>
-      <%= button_to "Log out", session_path, method: :delete if authenticated? %>
-    </div>
-
-    <main>
+    <main class="h-screen w-full">
       <%= yield %>
     </main>
   </body>
