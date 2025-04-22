@@ -28,4 +28,11 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  hello: 'Hello world'
+  products:
+    index:
+      title: 'Products'
+    mailer: # Let's try later
+      in_stock:
+        Title: 'Good news!'
+        back_to_stock: 'is back in stock.'

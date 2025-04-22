@@ -1,0 +1,8 @@
+ptbr:
+  products:
+    index:
+      title: 'Produtos'
+    mailer: # Let's try later
+      in_stock:
+        Title: 'Boa noticias!'
+        back_to_stock: 'está de volta no estoque!'

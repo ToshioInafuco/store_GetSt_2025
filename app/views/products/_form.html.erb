@@ -1,10 +1,29 @@
-<%= form_with model: product do |form| %>
-  <div>
-    <%= form.label :name %>
-    <%= form.text_field :name %>
-  </div>
+<div class="flex items-center justify-center">
+  <%= form_with model: product do |form| %>
+    <div>
+      <%= form.label :name %>
+      <%= form.text_field :name, class: "border rounded-l" %>
+    </div>
 
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
+    <div class="w-[712px]">
+      <%= form.label :description, style: "display: block" %>
+      <%= form.rich_text_area :description %>
+    </div>
+
+    <div>
+      <%= form.label :featured_image, style: "display: block" %>
+      <%= form.file_field :featured_image,
+                      accept: "image/*",
+                      class: "border rounded-l cursor-pointer " %>
+    </div>
+
+    <div>
+      <%= form.label :inventory_count, style: "display: block" %>
+      <%= form.number_field :inventory_count, class: "border rounded-l" %>
+    </div>
+
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+</div>
