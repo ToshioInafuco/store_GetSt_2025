@@ -43,7 +43,7 @@ gem "image_processing", "~> 1.2"
 # tailwind
 gem "tailwindcss-ruby", "~> 4.1"
 
-gem "tailwindcss-rails", "~> 4.2"
+gem "tailwindcss-rails", "~> 4.3"
 
 
 group :development, :test do
